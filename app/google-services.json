@@ -7,43 +7,14 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1056497752989:android:3b684c5b286e2b3e806d74",
+        "mobilesdk_app_id": "1:1056497752989:android:24be84726449fb30806d74",
         "android_client_info": {
           "package_name": "com.example.flightlessbird"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1056497752989-e6cup3u92cit16b4o1ggth2us9iob7bo.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBseB0yVN6K7T79-tKcjZatnN81qgDZhNE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1056497752989-e6cup3u92cit16b4o1ggth2us9iob7bo.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1056497752989:android:331bdb0ef2d7f750806d74",
-        "android_client_info": {
-          "package_name": "io.flightlessbird.app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1056497752989-e6cup3u92cit16b4o1ggth2us9iob7bo.apps.googleusercontent.com",
+          "client_id": "1056497752989-jkrd812bht2jqhaqd0uo3lsbg821c2f3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
