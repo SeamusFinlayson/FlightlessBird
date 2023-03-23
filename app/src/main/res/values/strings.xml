@@ -3,4 +3,7 @@
     <string name="user_login">User Login</string>
     <string name="appTitleString">Flightless Bird</string>
     <string name="loginBtnString">Continue With Google</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 </resources>
