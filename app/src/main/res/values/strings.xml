@@ -1,9 +1,90 @@
 <resources>
-    <string name="app_name">FlightlessBird</string>
-    <string name="user_login">User Login</string>
-    <string name="appTitleString">Flightless Bird</string>
-    <string name="loginBtnString">Continue With Google</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
-    <string name="app_widget_description">This is an app widget description</string>
+    <string name="app_name">FlightlessBirdWithAuth</string>
+    <string name="create_btn_string">Create</string>
+    <string-array name="cities">
+        <item>Aberdeen</item>
+        <item>Balham</item>
+        <item>Barking</item>
+        <item>Basingstoke</item>
+        <item>Bath Spa</item>
+        <item>Birmingham International</item>
+        <item>Birmingham Moor Street</item>
+        <item>Birmingham New Street</item>
+        <item>Blackfriars</item>
+        <item>Brighton</item>
+        <item>Bristol Temple Meads</item>
+        <item>Bromley South</item>
+        <item>Cambridge</item>
+        <item>Canada Water</item>
+        <item>Cannon Street</item>
+        <item>Cardiff Central</item>
+        <item>Cardiff Queen Street</item>
+        <item>Charing Cross</item>
+        <item>Chelmsford</item>
+        <item>Chester</item>
+        <item>Clapham Junction</item>
+        <item>Coventry</item>
+        <item>Doncaster</item>
+        <item>Ealing Broadway</item>
+        <item>Earlsfield</item>
+        <item>East Croydon</item>
+        <item>Edinburgh</item>
+        <item>Euston</item>
+        <item>Feltham</item>
+        <item>Fenchurch Street</item>
+        <item>Finsbury Park</item>
+        <item>Gatwick Airport</item>
+        <item>Glasgow Central</item>
+        <item>Glasgow Queen Street</item>
+        <item>Guildford</item>
+        <item>Highbury &amp; Islington</item>
+        <item>King\'s Cross</item>
+        <item>Kingston</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Lewisham</item>
+        <item>Liverpool Central</item>
+        <item>Liverpool Lime Street</item>
+        <item>Liverpool Street</item>
+        <item>London Bridge</item>
+        <item>Luton Airport Parkway</item>
+        <item>Manchester Oxford Road</item>
+        <item>Manchester Piccadilly</item>
+        <item>Manchester Victoria</item>
+        <item>Marylebone</item>
+        <item>Moorfields</item>
+        <item>Moorgate</item>
+        <item>Newcastle</item>
+        <item>Nottingham</item>
+        <item>Paddington</item>
+        <item>Paisley Gilmour Street</item>
+        <item>Preston</item>
+        <item>Putney</item>
+        <item>Reading</item>
+        <item>Richmond</item>
+        <item>Romford</item>
+        <item>Sheffield</item>
+        <item>Shepherds Bush</item>
+        <item>Slough</item>
+        <item>Southampton Central</item>
+        <item>St.Albans City</item>
+        <item>St.Pancras</item>
+        <item>Stansted Airport</item>
+        <item>Stevenage</item>
+        <item>Stratford</item>
+        <item>Surbiton</item>
+        <item>Sutton (Surrey)</item>
+        <item>Tottenham Hale</item>
+        <item>Twickenham</item>
+        <item>Upminster</item>
+        <item>Vauxhall</item>
+        <item>Victoria</item>
+        <item>Waterloo</item>
+        <item>Watford Junction</item>
+        <item>West Ham</item>
+        <item>Whitechapel</item>
+        <item>Wimbledon</item>
+        <item>Woking</item>
+        <item>York</item>
+    </string-array>
 </resources>

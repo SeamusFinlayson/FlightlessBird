@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logoColor">@color/md_theme_dark_onBackground</color>
+</resources>

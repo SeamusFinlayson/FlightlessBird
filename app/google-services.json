@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1056497752989-0jremarhmmc1qntuaqgg9qbibdsr1q9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flightlessbird",
+            "certificate_hash": "dbe5daf8beffc5c986f2c2020798789c5a43c3b2"
+          }
+        },
+        {
           "client_id": "1056497752989-jkrd812bht2jqhaqd0uo3lsbg821c2f3.apps.googleusercontent.com",
           "client_type": 3
         }

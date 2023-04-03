@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSignupActivity">
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Flightless Bird"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/usernameCardView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tripSettingCardHeight"
+        android:layout_marginStart="@dimen/meduimMargin"
+        android:layout_marginEnd="@dimen/meduimMargin"
+        android:backgroundTint="?attr/colorOnTertiary"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameTextView"
+        app:layout_constraintVertical_bias="0.05">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/smallMargin"
+                android:layout_marginBottom="4dp"
+                android:autofillHints="emailAddress"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/passwordCardView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tripSettingCardHeight"
+        android:layout_marginStart="@dimen/meduimMargin"
+        android:layout_marginEnd="@dimen/meduimMargin"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usernameCardView"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="?attr/colorOnTertiary">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:autofillHints="password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/smallMargin"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="?attr/colorPrimaryContainer"
+        android:onClick="logIn"
+        android:text="Log In"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordCardView"
+        app:layout_constraintVertical_bias="0.1"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="?attr/colorPrimaryContainer"
+        android:onClick="signUp"
+        android:text="Sign Up"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logInButton"
+        android:layout_marginTop="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

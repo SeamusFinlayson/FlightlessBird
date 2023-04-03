@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!--
-Refer to App Widget Documentation for margin information
-http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
-    -->
     <dimen name="widget_margin">0dp</dimen>
-
+    <dimen name="homePageHeaderHeight">80dp</dimen>
+    <dimen name="largeMargin">32dp</dimen>
+    <dimen name="meduimMargin">16dp</dimen>
+    <dimen name="largeCornerRadius">16dp</dimen>
+    <dimen name="smallMargin">8dp</dimen>
+    <dimen name="tripSettingCardHeight">64dp</dimen>
+    <dimen name="cardCornerRadius">8dp</dimen>
+    <dimen name="iconSize">32dp</dimen>
+    <dimen name="standardMargin">16dp</dimen>
+    <dimen name="xMiniMargin">5dp</dimen>
 </resources>
