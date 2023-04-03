@@ -1,5 +1,8 @@
 # Flightless Bird
+Developed by Seamus Finlayson & Mike Andrews
+
 The Flightless Bird app for android allows you to generate a spontaneous vacation using the UK rail network.
+
 ## Features
 * Gets train route data using [TransportAPI](https://developer.transportapi.com)
 * See route end points on map using [Google Maps Places API Text Search](https://developers.google.com/maps/documentation/places/web-service/search-text)
