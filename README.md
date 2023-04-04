@@ -1,5 +1,5 @@
 # Flightless Bird
-Developed by Seamus Finlayson & Mike Andrews
+*Developed by Seamus Finlayson & Mike Andrews*
 
 The Flightless Bird app for android allows you to generate a spontaneous vacation using the UK rail network.
 
