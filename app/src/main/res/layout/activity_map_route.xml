@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/standardMargin"
         android:layout_marginBottom="@dimen/standardMargin"
-        android:text="Route Map"
+        android:text="@string/map_screen_title"
         android:layout_marginStart="@dimen/standardMargin"
         android:textAlignment="center"
         android:textColor="?attr/colorOnBackground"
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/standardMargin"
                 android:layout_marginBottom="6dp"
-                android:text="From Sample Lake Station"
+                android:text="@string/from_sample_lake_station"
                 android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView"
                 app:layout_constraintStart_toEndOf="@+id/imageView" />
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="6dp"
-                android:text="To Sample Inlet Station"
+                android:text="@string/to_sample_inlet_station"
                 android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView2"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"/>

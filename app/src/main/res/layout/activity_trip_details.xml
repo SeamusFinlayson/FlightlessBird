@@ -44,7 +44,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginEnd="16dp"
 
-        android:text="Placeholder Trip Name"
+        android:text="@string/placeholder_trip_name"
         android:textColor="?attr/colorOnBackground"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
