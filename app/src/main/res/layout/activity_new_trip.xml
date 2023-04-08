@@ -14,7 +14,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginStart="@dimen/standardMargin"
         android:layout_marginEnd="@dimen/standardMargin"
-        android:text="New Vacation"
+        android:text="@string/new_vacation"
         android:textAlignment="center"
         android:textColor="?attr/colorOnBackground"
         android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
@@ -58,7 +58,7 @@
                 android:layout_marginEnd="@dimen/smallMargin"
                 android:layout_marginBottom="4dp"
                 android:ems="10"
-                android:hint="Give Your Vacation a Name"
+                android:hint="@string/give_your_vacation_a_name"
                 android:inputType="textPersonName"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +95,7 @@
                 android:layout_marginTop="@dimen/meduimMargin"
                 android:layout_marginEnd="@dimen/smallMargin"
                 android:layout_marginBottom="@dimen/meduimMargin"
-                android:text="Number of Cities to Visit"
+                android:text="@string/number_of_cities_to_visit"
                 android:textSize="18sp"
                 android:gravity="center_vertical"
                 android:textColor="?attr/colorTertiary"/>
@@ -137,7 +137,7 @@
                 android:layout_marginEnd="@dimen/smallMargin"
                 android:layout_marginBottom="@dimen/meduimMargin"
                 android:gravity="center_vertical"
-                android:text="Trip Duration"
+                android:text="@string/trip_duration"
                 android:textSize="18sp"
                 android:textColor="?attr/colorTertiary"/>
 
@@ -156,7 +156,7 @@
                 android:layout_marginEnd="@dimen/meduimMargin"
                 android:layout_marginBottom="@dimen/meduimMargin"
                 android:gravity="center_vertical"
-                android:text="Days"
+                android:text="@string/days"
                 android:textSize="18sp"
                 android:textColor="?attr/colorTertiary"/>
 
@@ -183,7 +183,7 @@
             android:layout_height="match_parent"
             android:focusable="false"
             android:gravity="center_vertical"
-            android:hint="Select a Start Date"
+            android:hint="@string/select_a_start_date"
             android:inputType="none"
             android:paddingStart="8dp"
             android:paddingEnd="8dp" />
@@ -217,7 +217,7 @@
                 android:layout_marginEnd="@dimen/smallMargin"
                 android:layout_marginBottom="@dimen/meduimMargin"
                 android:gravity="center_vertical"
-                android:text="Starting Station"
+                android:text="@string/starting_station"
                 android:textColor="?attr/colorTertiary"
                 android:textSize="18sp" />
 

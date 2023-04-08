@@ -1,6 +1,31 @@
 <resources>
     <string name="app_name">FlightlessBirdWithAuth</string>
     <string name="create_btn_string">Create</string>
+    <string name="home_screen_title">My Vacations</string>
+    <string name="login_screen_title">Flightless Bird</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="map_screen_title">Route Map</string>
+    <string name="from_sample_lake_station">From Sample Lake Station</string>
+    <string name="to_sample_inlet_station">To Sample Inlet Station</string>
+    <string name="new_vacation">New Vacation</string>
+    <string name="give_your_vacation_a_name">Give Your Vacation a Name</string>
+    <string name="number_of_cities_to_visit">Number of Cities to Visit</string>
+    <string name="trip_duration">Trip Duration</string>
+    <string name="days">Days</string>
+    <string name="select_a_start_date">Select a Start Date</string>
+    <string name="starting_station">Starting Station</string>
+    <string name="placeholder_trip_name">Placeholder Trip Name</string>
+    <string name="place_holder_trip_name">Place Holder Trip Name</string>
+    <string name="placeholder_city_list">City A, City B, City C</string>
+    <string name="origin_station_name">Origin Station Name</string>
+    <string name="train_service_name">Train Service Name</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="departs_at_hh_mm">Departs at HH:MM</string>
+    <string name="arrives_at_hh_mm">Arrives at HH:MM</string>
+    <string name="destination_station_name">Destination Station Name</string>
     <string-array name="cities">
         <item>Aberdeen</item>
         <item>Balham</item>

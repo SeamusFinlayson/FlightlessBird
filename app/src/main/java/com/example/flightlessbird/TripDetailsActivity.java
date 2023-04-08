@@ -53,23 +53,6 @@ public class TripDetailsActivity extends AppCompatActivity implements RecyclerVi
 
         }
 
-        /*
-        //advanced version, not sure when it should run though
-        //limit header text width
-        TextView header = findViewById(R.id.detailsHeaderTextView);
-        header.setText(userTrip.getTripName());
-
-        //check if header exceeds bounds
-        TripDetailsActivity.context = getApplicationContext();
-        DisplayMetrics displayMetrics = TripDetailsActivity.context.getResources().getDisplayMetrics();
-        float dpScreenWidth = displayMetrics.widthPixels / displayMetrics.density;
-        float headerBounds = header.getWidth() / displayMetrics.density - 96;
-
-        if (headerBounds > dpScreenWidth) {
-            String truncatedName = userTrip.getTripName().substring(0,20) + "...";
-            header.setText(truncatedName);
-        }*/
-
         RecyclerView recyclerView = findViewById(R.id.detailsRecyclerView);
 
         TR_RecyclerViewAdapter adapter = new TR_RecyclerViewAdapter(this, userTrip.getTripRoutes(), this);

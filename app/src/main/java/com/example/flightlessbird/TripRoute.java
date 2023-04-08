@@ -52,18 +52,6 @@ public class TripRoute implements Parcelable {
 
     }
 
-    //TODO remove this
-    /*
-    public TripRoute(String arrivalTime, String departureDate, String departureTime, String destinationStationCode, String destinationStationName, String originStationCode, String originStationName) {
-        this.arrivalTime = arrivalTime;
-        this.departureDate = departureDate;
-        this.departureTime = departureTime;
-        this.destinationStationCode = destinationStationCode;
-        this.destinationStationName = destinationStationName;
-        this.originStationCode = originStationCode;
-        this.originStationName = originStationName;
-    }*/
-
     public String getArrivalTime() {
         if (arrivalTime.startsWith("A")) {
             return  arrivalTime;
