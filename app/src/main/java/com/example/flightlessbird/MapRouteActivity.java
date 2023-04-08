@@ -116,9 +116,7 @@ public class MapRouteActivity extends AppCompatActivity implements OnMapReadyCal
     private String getLocationsUrl(String placeName) {
 
         // search region is uk
-        //String locationString = "location=52.3065,-1.9458&radius=1000";
-
-        //TODO put input place name in good format
+        //put input place name in good format
         placeName = placeName.replaceAll(" ", "+") + "+train+station+in+united+kingdom";
 
         String nameString = "query=" + placeName;

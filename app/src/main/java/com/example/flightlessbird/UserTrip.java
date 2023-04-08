@@ -112,21 +112,6 @@ public class UserTrip implements Parcelable{
             dest.writeInt(tripDuration);
         }
 
-        //TODO remove this
-        /*
-        tripRoutesSize = tripRoutes.size();
-        dest.writeInt(tripRoutesSize);
-
-        for (TripRoute tripRoute: tripRoutes) {
-            dest.writeString(tripRoute.arrivalTime);
-            dest.writeString(tripRoute.departureDate);
-            dest.writeString(tripRoute.departureTime);
-            dest.writeString(tripRoute.destinationStationCode);
-            dest.writeString(tripRoute.destinationStationName);
-            dest.writeString(tripRoute.originStationCode);
-            dest.writeString(tripRoute.originStationName);
-        }*/
-
         dest.writeTypedList(tripRoutes);
     }
 
@@ -142,38 +127,6 @@ public class UserTrip implements Parcelable{
         } else {
             tripDuration = in.readInt();
         }
-
-        String arrivalTime;
-        String departureDate;
-        String departureTime;
-        String destinationStationCode;
-        String destinationStationName;
-        String originStationCode;
-        String originStationName;
-
-        //TODO remove this
-        /*
-        tripRoutesSize = in.readInt();
-        for (int i = 0; i < tripRoutesSize; i++) {
-
-            arrivalTime = in.readString();
-            departureDate = in.readString();
-            departureTime = in.readString();
-            destinationStationCode = in.readString();
-            destinationStationName = in.readString();
-            originStationCode = in.readString();
-            originStationName = in.readString();
-
-            passedTripRoutes.add(new TripRoute(
-                arrivalTime,
-                departureDate,
-                departureTime,
-                destinationStationCode,
-                destinationStationName,
-                originStationCode,
-                originStationName
-            ));
-        }*/
 
         ArrayList<TripRoute> passedTripRoutes = new ArrayList<>();
         in.readTypedList(passedTripRoutes, TripRoute.CREATOR);

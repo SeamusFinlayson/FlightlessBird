@@ -85,7 +85,6 @@ public class HomeScreenActivity extends AppCompatActivity implements RecyclerVie
         //fill recycler view with icons
         RecyclerView recyclerView = findViewById(R.id.myTripsRecyclerView);
 
-        //TODO potential unhandled 0 length condition
         //populate recycler view
         UT_RecyclerViewAdapter adapter = new UT_RecyclerViewAdapter(this, userData.userTrips, this);
         recyclerView.setAdapter(adapter);
@@ -113,14 +112,21 @@ public class HomeScreenActivity extends AppCompatActivity implements RecyclerVie
     //click on logout
     public void logout(View view) {
 
+        //sign out user
         FirebaseAuth.getInstance().signOut();
 
+        //go to homescreen
         Intent intent = new Intent(this, LoginSignupActivity.class);
         startActivity(intent);
+
+        //clear activity data so it is not seen if a user with no data logs in
+        finish();
     }
 
     //click on new trip
     public void newTrip(View view) {
+
+        //go to new trip activity
         Intent intent = new Intent(this, NewTripActivity.class);
         startActivity(intent);
     }

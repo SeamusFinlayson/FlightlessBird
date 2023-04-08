@@ -111,6 +111,8 @@ public class LoginSignupActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+
+        //close app on back button pressed
         super.onBackPressed();
         this.finishAffinity();
         System.exit(0);
