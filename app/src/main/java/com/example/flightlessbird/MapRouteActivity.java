@@ -12,7 +12,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -28,8 +27,6 @@ public class MapRouteActivity extends AppCompatActivity implements OnMapReadyCal
     SupportMapFragment mapFragment;
     private GoogleMap myMap;
 
-    LatLng origin;
-    LatLng destination;
     String originStationName;
     String destinationStationName;
     Boolean originStation;
@@ -93,7 +90,7 @@ public class MapRouteActivity extends AppCompatActivity implements OnMapReadyCal
             super.onPostExecute(result);
 
             try {
-                if (result != "") {
+                if (!result.equals("")) {
                     JSONObject jsonObject = new JSONObject(result);
                     if (jsonObject.getString("status").equals("OK")) {
                         JSONArray jsonResults = jsonObject.getJSONArray("results");
